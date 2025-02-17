@@ -19,5 +19,5 @@ jobs:
     - name: Deploy to Surge
       env:
         SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-        SURGE_DOMAIN: your-custom-domain.surge.sh
+        SURGE_DOMAIN: 2023-1009.surge.sh
       run: surge --project ./ --domain $SURGE_DOMAIN --token $SURGE_TOKEN
